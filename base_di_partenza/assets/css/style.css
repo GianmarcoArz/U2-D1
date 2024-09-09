@@ -79,13 +79,13 @@ header nav li a::before {
     padding: 0;
     margin-bottom: 0px;
   }
-  header,
-  div,
-  img,
-  p {
+  header > div,
+  header > div img,
+  header > div p {
     display: inline-block;
     vertical-align: middle;
   }
+
   header,
   nav {
     display: inline-block;
@@ -272,8 +272,8 @@ aside div p:last-child {
 
 @media screen and (min-width: 1200px) {
   aside div {
-    display: inline-block;
     width: 33%;
+    display: inline-block;
   }
 }
 /*_______________________________________________________________________________*/
